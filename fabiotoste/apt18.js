@@ -1,3 +1,6 @@
+// Copied from : http://fabiotoste.com/portfolio, used only for learning
+
+
 Array.prototype.remove = function (from, to) {
     if (typeof from != "number")
         return this.remove(this.indexOf(from));
@@ -8,8 +11,8 @@ Array.prototype.remove = function (from, to) {
 
 jQuery(function ($) {
     if (!Modernizr.canvas) {
-        // ¼ì²âä¯ÀÀÆ÷ÊÇ·ñÖ§³Öcanvas
-        alert("please get yourself a sophisticated browser like FireFox 3.5£¬Safari£¬Opera£¬Chrome ");
+        // æ£€æµ‹æµè§ˆå™¨æ˜¯å¦æ”¯æŒcanvas
+        alert("please get yourself a sophisticated browser like FireFox 3.5ï¼ŒSafariï¼ŒOperaï¼ŒChrome ");
     } else {
         var numParticles = 100;
         var i;
